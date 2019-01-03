@@ -10,6 +10,6 @@
 
 		public function testIfWorks(){
 			$this->UserInstance->setLogin("mahdi");
-			$this->assertEquals("mahdi",$this->UserInstance->getLogin());
+			$this->assertEquals("hdi",$this->UserInstance->getLogin());
 		}
 	}
